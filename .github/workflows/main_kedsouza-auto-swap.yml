@@ -55,7 +55,7 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'kedsouza-auto-swap'
-          slot-name: 'Production'
+          slot-name: 'stage'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_460C66597E5A432E8BD29976C29487B6 }}
           package: .
   
